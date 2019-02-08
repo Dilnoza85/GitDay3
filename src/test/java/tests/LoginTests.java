@@ -42,7 +42,7 @@ public class LoginTests {
         Assert.assertEquals(driver.getTitle(), "Web Orders Login Status");
 
     }
-
+//login test
     @Test
     public void negativeloginTest() {
         driver.get("http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx");
